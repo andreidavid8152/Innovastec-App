@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-piel;
+}
+
+#titulo {
+  color: #0172b2;
+}
+
+#forms {
+  background-color: #f69522;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+    from { transform: scale(0.95); }
+    to { transform: scale(1); }
+}
+
+.Toastify__progress-bar--error {
+  background: red;
+}
+
+.Toastify__progress-bar--success {
+  background: green;
+}
